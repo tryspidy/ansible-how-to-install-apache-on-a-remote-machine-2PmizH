@@ -1,0 +1,1 @@
+ansible web_server_group -i devops_inventory -b -m apt -a "name=apache2 state=present"
